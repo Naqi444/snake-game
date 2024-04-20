@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="score-display">Score: {{ score }}</div>
+      <canvas #canvas id="snakeCanvas" width="400" height="400"></canvas>
+      <button class="btn btn-primaty restart-button" (click)="onReset()">
+        Restart
+      </button>
+    </div>
+  </div>
+</div>
